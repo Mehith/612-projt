@@ -1,0 +1,112 @@
+body{
+margin: 0;
+padding-top: 800px;
+text-align: center;
+}
+#p{
+font-size: 80px
+}
+.profile{
+width: 175px;
+margin-bottom: 50px;
+border-radius: 50%
+}
+#welcome{
+position: absolute;
+height: 800px;
+color: darkblue;
+background: linear-gradient(#96a6f2 0%, #ff0000 100%);
+width: 100%;
+height: 100%;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+overflow: hidden;
+display: table;
+opacity: 0.83;
+z-index: 9;
+}
+a{
+text-decoration: none;
+color: chartreuse;
+text-shadow: 2px 2px gainsboro;
+}
+h1{
+font-size: 40px;
+font-family: sans-serif;
+}
+.parallax-inner{
+display: table-cell;
+position: relative;
+text-align: center;
+vertical-align: middle;
+}
+.link:hover{
+background-color: yellowgreen;
+}
+.menu{
+list-style: none;
+font-family: sans-serif;
+position: absolute;
+top: 10px;
+right: 30px;
+z-index: 10;
+cursor: pointer;
+}
+#about{
+padding: 50px;
+text-align: center;
+font-size: 20px;
+}
+.link{
+float: top;
+color: darkred;
+padding-left: 9px;
+padding-right: 9px;
+padding-top: 5px;
+padding-bottom: 5px;
+font-family: monospace;
+font-size: 20px;
+}
+article:hover{
+color: cornflowerblue;
+}
+#vio{
+text-align: center;
+}
+#baskttriv{
+text-align: center;
+}
+#lulsv{
+text-align: center;
+}
+#ft{
+text-align: center;
+}
+a{
+text-decoration: none;
+color: chartreuse;
+text-shadow: 2px 2px gainsboro;
+}
+#contact{
+text-align: center;
+background-color: chartreuse;
+}
+
+.contact1 a{
+color: firebrick;
+text-shadow: none;
+}
+
+.contact1 h3{
+display: inline;
+}
+
+#contact iframe{
+width: 100%;
+}
+
+html{
+scroll-behavior: smooth;
+}
